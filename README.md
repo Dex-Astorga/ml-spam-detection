@@ -1,6 +1,8 @@
 # TEXT MESSAGE SPAM DETECTION MACHINE LEARNING PROJECT
 This project is a retrospective on our machine learning capstone projects during the first semester of our senior year in college. Back in early 2023, spam messaging was rampant in the Philippines. It was a significant social issue that the country was grappling with, to the extent that an act needed to be passed to address this problem—the Sim Registration Act. During the peak of malicious spamming in the Philippines, our group decided to create a machine learning model for classifying text messages as spam or not. This GitHub project serves as a reflection on that undertaking, along with the decisions and changes I would have considered if I could go back in time, including project organization and clean code practices.
 
+<br>
+
 ### Table of Contents:
 #### Project Overview
 #### Installation
@@ -10,6 +12,7 @@ This project is a retrospective on our machine learning capstone projects during
 #### Contributing
 #### License
 
+<br>
 
 ### Project Description:
 This project focuses on finding the optimal model for text message spam classification through a detailed process:
@@ -25,7 +28,7 @@ This project focuses on finding the optimal model for text message spam classifi
 
 4. **Model Comparison**: After optimization, I compared the performance of these models to select the best-performing one among them.
 
-
+<br>
 
 ### Installation:
 This project includes all of the datasets, graphs, and notebooks that are used in the entire project.
@@ -33,11 +36,13 @@ This project includes all of the datasets, graphs, and notebooks that are used i
 1. **Clone the Repository:** Begin by cloning the project repostory using Git.
 2. **Navigate to the Project Directory:** Go to the project directory using your command prompt or terminal or your file manager.
 3. **Scan the notebooks:** You can now view the notebooks for in depth look on the project.
+4. **Results and Discussions:** The results and discussions are tackled in the documentation file. 
+
 <br>
 
 ### Full Documentation File:
  
-This [document](https://github.com/Dex-Astorga/coffee-shop-ecom/blob/main/design_guide_coffee_shop.pdf) is a thorough walk through of everything you need to know to use this project. 
+This [document](https://github.com/Dex-Astorga/ml-spam-detection/blob/main/project_documentation.pdf) is a thorough walk through of everything you need to know to use this project. 
 
 <br>
 
@@ -66,7 +71,7 @@ This [document](https://github.com/Dex-Astorga/coffee-shop-ecom/blob/main/design
 
 If you encounter a bug or have an idea for improvement:
 
-1. **Submit an Issue:** Visit the [issue tracker](https://github.com/Dex-Astorga/coffee-shop-ecom/issues) and create a new issue.
+1. **Submit an Issue:** Visit the [issue tracker](https://github.com/Dex-Astorga/ml-spam-detection/issues) and create a new issue.
 2. **Provide Details:** Clearly describe the problem or feature request.
 3. **Stay Engaged:** Check for updates on your issue.
 
