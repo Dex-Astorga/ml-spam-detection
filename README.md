@@ -1,6 +1,5 @@
 # TEXT MESSAGE SPAM DETECTION MACHINE LEARNING PROJECT
-This project is a retrospective on our machine learning capstone projects during the first semester of our senior year in college. Back in early 2023, spam messaging was rampant in the Philippines. It was a significant social issue that the country was grappling with, to the extent that an act needed to be passed to address this problem—the Sim Registration Act. During the peak of malicious spamming in the Philippines, our group decided to create a machine learning model for classifying text messages as spam or not. 
-This GitHub project serves as a reflection on that undertaking, along with the decisions and changes I would have considered if I could go back in time, including project organization and clean code practices.
+This project is a retrospective on our machine learning capstone projects during the first semester of our senior year in college. Back in early 2023, spam messaging was rampant in the Philippines. It was a significant social issue that the country was grappling with, to the extent that an act needed to be passed to address this problem—the Sim Registration Act. During the peak of malicious spamming in the Philippines, our group decided to create a machine learning model for classifying text messages as spam or not. This GitHub project serves as a reflection on that undertaking, along with the decisions and changes I would have considered if I could go back in time, including project organization and clean code practices.
 
 ### Table of Contents:
 #### Project Overview
@@ -15,7 +14,10 @@ This GitHub project serves as a reflection on that undertaking, along with the d
 ### Project Description:
 This project focuses on finding the optimal model for text message spam classification through a detailed process:
 
-1. **Dataset Partitions**: The ham-spam dataset is divided into three partitions, all representing "ham to spam" ratios: 70-30, 60-40, and 50-50. These partitions are used for training and testing machine learning models, independent of each other.
+
+0.  **The Dataset**: The dataset used in this project is a culmination of 3 different datasets. This is done to introduce data diversity and overcome high imbalance.
+
+1. **Dataset Partitions**: Three different training datasets are created. They are divided into these ham to spam partitions: 70-30, 60-40, and 50-50. These datasets are used for training and testing machine learning models, independent of each other.
 
 2. **Model Selection in Each Partition**: Out of 11 different classification algorithms, the best model was identified by training all the models using default parameters and cross validating the results, (hold out validation was done but not considered in selecting best model because of bias).
 
@@ -23,33 +25,14 @@ This project focuses on finding the optimal model for text message spam classifi
 
 4. **Model Comparison**: After optimization, I compared the performance of these models to select the best-performing one among them.
 
-5. **Interactive Terminal App**: The selected best-performing model is integrated into a simple interactive terminal app named -- app.py. This app allows users to test the model's spam classification capabilities.
 
 
 ### Installation:
-This project includes all of the datasets and notebooks that are used in the entire project. To make this interactive, I created a simple terminal app to accompany the project.
-To use this Text Message Spam Detection App on your local machine, follow these steps:
+This project includes all of the datasets, graphs, and notebooks that are used in the entire project.
 
 1. **Clone the Repository:** Begin by cloning the project repostory using Git.
-2. **Navigate to the Project Directory:** Go to the project directory using your command prompt or terminal.
-3. **Create a Virtual Environment (Optional but Recommended):** For a cleaner setup, consider creating a virtual environment:
-   - python -m venv venv
-
-   - Activate the virtual environment based on your operating system:
-   - On Windows:
-     venv\Scripts\activate
-
-   - On macOS and Linux:
-     source venv/bin/activate
-
-4. **Install Required Packages:** Install the necessary Python packages for the project:
-   - pip install -r requirements.txt
-
-5. **Run the Application:** Launch the interactive Text Message Spam Detection application:
-   python app.py
-
-This will start the application, allowing you to input text messages for spam classification. You can now explore and assess the performance of the spam detection model, with a focus on handling imbalanced data.
-
+2. **Navigate to the Project Directory:** Go to the project directory using your command prompt or terminal or your file manager.
+3. **Scan the notebooks:** You can now view the notebooks for in depth look on the project.
 <br>
 
 ### Full Documentation File:
@@ -58,9 +41,9 @@ This [document](https://github.com/Dex-Astorga/coffee-shop-ecom/blob/main/design
 
 <br>
 
-### Database Schema:
+### Model Architecture:
 
-![Project Architecture](https://github.com/Dex-Astorga/coffee-shop-ecom/blob/main/online_store_coffee_shop.png?raw=true)
+![Project Architecture](https://github.com/Dex-Astorga/ml-spam-detection/blob/main/project_diagram.png)
 
 <br>
 
